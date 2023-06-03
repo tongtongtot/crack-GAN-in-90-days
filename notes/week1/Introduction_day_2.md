@@ -72,7 +72,7 @@ def __init__(self):
         nn.Linear(1024,int(nn.prod(img_shape))), 
       	nn.Tanh()
       	#img_shape = (opt.channels, opt.img_size, opt.img_size)
-    )
+    ) #由于图片是28*28=784，所以至少需要1024大小
 ```
 
 之后就是 $forward$ 函数：
@@ -104,7 +104,7 @@ class discriminator(nn.Module):
       	*block(512,256),
       	nn.Linear(256,1),
         nn.Sigmoid()
-    )
+    ) #返回一个结果，表示该图片是真的图片的概率
     
     def forward(self, img):
         img_flat = img.view(img.size(0), -1)
