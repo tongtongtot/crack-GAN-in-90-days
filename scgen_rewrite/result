@@ -1,0 +1,4 @@
+baseline: 0.2956724971428791
+add_KLloss: 0.31731225649589045
+add_KLloss_sti : 0.3144207088411067
+add_KLloss_sti_balance : 

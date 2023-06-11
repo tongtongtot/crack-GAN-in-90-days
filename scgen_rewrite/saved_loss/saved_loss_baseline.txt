@@ -1,0 +1,3 @@
+batch 125 :
+loss
+tensor(0.0354, device='cuda:0', grad_fn=<SubBackward0>)
