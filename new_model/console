@@ -1,0 +1,15 @@
+python3 main.py --model_name CD4T --epoch 200 --exclude_celltype CD4T
+python3 main.py --model_name CD14+Mono --epoch 200 --exclude_celltype CD14+Mono
+python3 main.py --model_name B --epoch 200 --exclude_celltype B
+python3 main.py --model_name CD8T --epoch 200 --exclude_celltype CD8T
+python3 main.py --model_name NK --epoch 200 --exclude_celltype NK
+python3 main.py --model_name FCGR3A+Mono --epoch 200 --exclude_celltype FCGR3A+Mono
+python3 main.py --model_name Dendritic --epoch 200 --exclude_celltype Dendritic
+
+python3 main.py --model_name Enterocyte --exclude_celltype Enterocyte
+python3 main.py --model_name Enterocyte.Progenitor --exclude_celltype Enterocyte.Progenitor
+python3 main.py --model_name Goblet --exclude_celltype Goblet
+python3 main.py --model_name Stem --exclude_celltype Stem
+python3 main.py --model_name TA --exclude_celltype TA
+python3 main.py --model_name TA.Early --exclude_celltype TA.Early
+python3 main.py --model_name Tuft --exclude_celltype Tuft
